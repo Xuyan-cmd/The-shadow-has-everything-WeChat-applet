@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/login/index",
+    "pages/index/index",
+    "pages/pingjia/index",
+    "pages/office/index",
+    "pages/my/index",
+    "pages/me/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "首页",
+    "navigationBarBackgroundColor": "#282828",
+    "backgroundColor": "#282828"
+  },
+  "tabBar": {
+    "color": "#fff",
+    "selectedColor": "#FF0000",
+    "backgroundColor": "#282828",
+    "height": "30px",
+    "spacing": "5px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home-active.png",
+        "text": "影评广场"
+      },
+      {
+        "pagePath": "pages/pingjia/index",
+        "iconPath": "static/add.png",
+        "selectedIconPath": "static/add-active.png",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/office/index",
+        "iconPath": "static/baobiao.png",
+        "selectedIconPath": "static/baobiao-active.png",
+        "text": "票房预测"
+      },
+      {
+        "pagePath": "pages/me/index",
+        "iconPath": "static/me.png",
+        "selectedIconPath": "static/me-active.png",
+        "text": "个人中心"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "static/me.png",
+        "selectedIconPath": "static/me-active.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "usingComponents": {
+    "tab-bar": "/components/tabbar/index"
+  }
+}

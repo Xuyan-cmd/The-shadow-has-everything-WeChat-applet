@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "票房预测",
+  "usingComponents": {
+    "u-grid": "/node-modules/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/node-modules/uview-ui/components/u-grid-item/u-grid-item",
+    "eatch": "/common/eatch"
+  }
+}

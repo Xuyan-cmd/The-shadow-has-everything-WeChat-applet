@@ -1,0 +1,112 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	{
+		"path": "pages/login/index",
+		"style": {
+			"navigationBarTitleText": "登录"
+		}
+	},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/pingjia/index",
+			"style": {
+				"navigationBarTitleText": "评论"
+			}
+		},
+		{
+			"path": "pages/office/index",
+			"style": {
+				"navigationBarTitleText": "票房预测"
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/me/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}
+	
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "#fff",
+		"navigationBarTitleText": "首页",
+		"navigationBarBackgroundColor": "#282828",
+		"backgroundColor": "#282828"
+	},
+	"tabBar": {
+		"color": "#fff",
+		"selectedColor": "#FF0000",
+		"backgroundColor": "#282828",
+		"height": "30px",
+		"spacing": "5px",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/home.png",
+				"selectedIconPath": "static/home-active.png",
+				"text": "影评广场"
+	 },
+	 {
+	 				"pagePath": "pages/pingjia/index",
+	 				"iconPath": "static/add.png",
+	 				"selectedIconPath": "static/add-active.png",
+	 				"text": ""
+	 },
+
+	 {
+	 				"pagePath": "pages/office/index",
+	 				"iconPath": "static/baobiao.png",
+	 				"selectedIconPath": "static/baobiao-active.png",
+	 				"text": "票房预测"
+	 },
+	 {
+	 				"pagePath": "pages/me/index",
+	 				"iconPath": "static/me.png",
+	 				"selectedIconPath": "static/me-active.png",
+	 				"text": "个人中心"
+	 },
+	 {
+	 				"pagePath": "pages/my/index",
+	 				"iconPath": "static/me.png",
+	 				"selectedIconPath": "static/me-active.png",
+	 				"text": "个人中心"
+	 }
+	
+			// }, {
+			// 	"pagePath": "pages/add_dishes/index",
+			// 	"iconPath": "static/icon2.png",
+			// 	"selectedIconPath": "static/icon2_acitve.png",
+			// 	"text": "新增菜品" 
+			// },
+			// {
+			// 	"pagePath": "pages/manage/index",
+			// 	"iconPath": "static/icon3.png",
+			// 	"selectedIconPath": "static/icon3_active.png",
+			// 	"text": "管理中心"
+			// },
+			// {
+			// 	"pagePath": "pages/user/index",
+			// 	"iconPath": "static/icon3.png",
+			// 	"selectedIconPath": "static/icon3_active.png",
+			// 	"text": "个人中心"
+			// }
+	
+		]
+	
+	}
+}
